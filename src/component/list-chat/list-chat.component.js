@@ -1,13 +1,12 @@
 import template from './list-chat.html';
 
 class controller {
-    constructor() {      
-    }  
+    constructor() {
+    }
 }
 
 const listChatComponent = {
     template,
-    controller,
     bindings : {
         user: '<',
         list: '<'
