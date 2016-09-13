@@ -18,7 +18,7 @@ describe('service', () => {
       expect(chatService.get()).toEqual([]);
     });
 
-    it('chatService add should add an oject to the list', () => {
+    it('chatService add should add an object to the list', () => {
 
       const object = {
         user: '1',
