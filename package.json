@@ -1,0 +1,36 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "chat angularjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "release": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlarche/chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nlarche/chat/issues"
+  },
+  "homepage": "https://github.com/nlarche/chat#readme",
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.5.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
