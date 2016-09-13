@@ -3,6 +3,7 @@ import Styles from './list-chat.css';
 
 class Controller {
   constructor() {
+    this.styles = Styles;
   }
   getClass(item) {
     if (this.user === item) {
@@ -21,6 +22,5 @@ const listChatComponent = {
     list: '<'
   }
 };
-
 
 export default listChatComponent;

@@ -1,7 +1,26 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat {
+  margin: 10px;
+  border-radius: 15px;
+  max-width: 100px;
+  line-height: 30px;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
 .me {
-  background-color: red
+  composes : chat;
+  align-self: flex-start;
+  background: red;
 }
 
 .you {
-  background-color: blue
+  composes : chat;
+  align-self: flex-end;
+  background: blue;
 }
