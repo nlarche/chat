@@ -1,8 +1,10 @@
 import template from './chat-room.html';
+import Styles from './chat-room.css';
 
 class controller {
      constructor(ChatService) {
         this.chatService = ChatService;
+        this.styles = Styles;
     }
     update($event) {
         this.chatService.add($event);
