@@ -28,11 +28,8 @@ module.exports = function(config) {
           test: /\.html/,
           loader: 'raw'
         }, {
-          test: /\.styl$/,
-          loader: 'style!css!stylus'
-        }, {
           test: /\.css$/,
-          loader: 'style!css'
+          loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss'
         }]
       }
     },
