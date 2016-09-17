@@ -10,4 +10,4 @@ angularjs chat
 * Eslint
 * Css modules
 * Postcss
-
+* karma - jasmine
