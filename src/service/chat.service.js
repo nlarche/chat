@@ -1,13 +1,6 @@
 export default class chatService {
     constructor() {
-        this.liste = [
-        //   {
-        //     id: 0,
-        //     user: 'me',
-        //     text: 'newChat.text newChat.text newChat.text newChat.text newChat.text newChat.text newChat.text'
-        // }
-        ];
-
+        this.liste = [];
     }
     add(newChat) {
         this.liste.push({

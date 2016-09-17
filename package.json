@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "release": "webpack",
-    "test": "karma start"
+    "test": "karma start ./test/karma.conf.js"
   },
   "repository": {
     "type": "git",
