@@ -11,3 +11,7 @@ angularjs chat
 * Css modules
 * Postcss
 * karma - jasmine
+
+# developpement
+
+`npm install && npm start`
