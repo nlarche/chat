@@ -1,8 +1,10 @@
 import template from './input-chat.html';
+import Styles from './input-chat.css';
 
 class controller {
-    constructor() {            
-    }  
+    constructor() {
+      this.styles = Styles;
+    }
     onSubmit() {
         this.onUpdate({
                     $event : {
@@ -11,7 +13,7 @@ class controller {
                 }
             }
         );
-        this.text = null;        
+        this.text = null;
     }
 }
 

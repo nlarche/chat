@@ -1,4 +1,4 @@
-<form ng-submit="$ctrl.onSubmit()">
-    <input type="text" ng-model="$ctrl.text"/>
-    <input type="submit" />
+<form ng-submit="$ctrl.onSubmit()" ng-class="$ctrl.styles.form">
+    <input type="text" ng-model="$ctrl.text" ng-class="$ctrl.styles.input" />
+    <input type="submit" ng-class="$ctrl.styles.button" />
 </form>

@@ -1,6 +1,12 @@
 export default class chatService {
     constructor() {
-        this.liste = [];
+        this.liste = [
+        //   {
+        //     id: 0,
+        //     user: 'me',
+        //     text: 'newChat.text newChat.text newChat.text newChat.text newChat.text newChat.text newChat.text'
+        // }
+        ];
 
     }
     add(newChat) {
@@ -8,7 +14,7 @@ export default class chatService {
             id: this.liste.length,
             user: newChat.user,
             text: newChat.text
-        });        
+        });
     }
     get() {
         return this.liste;

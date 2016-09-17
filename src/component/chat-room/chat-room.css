@@ -3,7 +3,7 @@
   display: flex;
   flex-flow: column;
   overflow: hidden;
-  justify-content: center
+  justify-content: center;
 }
 
 .list {
@@ -13,4 +13,5 @@
 
 .input {
   flex: 0 0 20%;
+  align-self: center;
 }
