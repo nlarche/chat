@@ -32422,7 +32422,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".chat-room__chatroom___2ly0F {\n  height: 100%;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: column;\n      flex-flow: column;\n  overflow: hidden;\n  -ms-flex-pack: center;\n      justify-content: center;\n}\n\n.chat-room__list___3rgpz {\n  -ms-flex: 1 1 80%;\n      flex: 1 1 80%;\n  overflow: auto;\n}\n\n.chat-room__input___1DbAS {\n  -ms-flex: 0 0 20%;\n      flex: 0 0 20%;\n  -ms-flex-item-align: center;\n      align-self: center;\n}\n", ""]);
+	exports.push([module.id, ".chat-room__chatroom___2ly0F {\n  height: 100%;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: column;\n      flex-flow: column;\n  overflow: hidden;\n  -ms-flex-pack: center;\n      justify-content: center;\n}\n\n.chat-room__list___3rgpz {\n  -ms-flex: 1 1 80%;\n      flex: 1 1 80%;\n  overflow-y: auto;\n  overflow-x: hidden;\n}\n\n.chat-room__input___1DbAS {\n  -ms-flex: 0 0 20%;\n      flex: 0 0 20%;\n  -ms-flex-item-align: center;\n      align-self: center;\n}\n", ""]);
 	
 	// exports
 	exports.locals = {
@@ -32552,7 +32552,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".list-chat__list___BI-9A {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: column;\n      flex-direction: column;\n  background: white;\n  margin: 10px;\n  min-height: 100%;\n  min-width: 100%\n}\n\n.list-chat__chat___6dg_3 {\n  margin: 10px;\n  padding: 3px;\n  border-radius: 5px;\n  line-height: 30px;\n  color: white;\n  font-size: 12px;\n  text-align: center;\n  text-align: left;\n  white-space: wrap;\n}\n\n.list-chat__me___3kuOD {\n  -ms-flex-item-align: start;\n      align-self: flex-start;\n  background: lightseagreen;\n}\n\n.list-chat__you___3lvI3 {\n  -ms-flex-item-align: end;\n      align-self: flex-end;\n  background: dodgerblue;\n}\n", ""]);
+	exports.push([module.id, ".list-chat__list___BI-9A {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: column;\n      flex-direction: column;\n  background: white;\n  margin: 10px;\n  min-height: 90%;\n  min-width: 100%\n}\n\n.list-chat__chat___6dg_3 {\n  margin: 10px;\n  padding: 3px;\n  border-radius: 5px;\n  line-height: 30px;\n  color: white;\n  font-size: 12px;\n  text-align: center;\n  text-align: left;\n  white-space: wrap;\n}\n\n.list-chat__me___3kuOD {\n  -ms-flex-item-align: start;\n      align-self: flex-start;\n  background: lightseagreen;\n}\n\n.list-chat__you___3lvI3 {\n  -ms-flex-item-align: end;\n      align-self: flex-end;\n  background: dodgerblue;\n}\n", ""]);
 	
 	// exports
 	exports.locals = {
@@ -32620,6 +32620,9 @@
 	    _createClass(controller, [{
 	        key: 'onSubmit',
 	        value: function onSubmit() {
+	            if (!this.text) {
+	                return;
+	            }
 	            this.onUpdate({
 	                $event: {
 	                    user: this.user,
@@ -32685,7 +32688,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".input-chat__form___4NsgZ {\n  margin: 5px;\n}\n\n.input-chat__input___1aGBp {\n    border: 1px solid #d3d6db;\n    border-radius: 3px;\n    color: #222324;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    font-size: 14px;\n    height: 20px;\n    line-height: 24px;\n    padding-left: 8px;\n    padding-right: 8px;\n    position: relative;\n    vertical-align: top;\n}\n\n.input-chat__button___1OXxa {\n  font-size: 18px;\n  height: 40px;\n  padding-left: 14px;\n  padding-right: 14px;\n}\n", ""]);
+	exports.push([module.id, ".input-chat__form___4NsgZ {\n  margin: 5px;\n}\n\n.input-chat__input___1aGBp {\n    border: 1px solid #d3d6db;\n    border-radius: 3px;\n    color: #222324;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    font-size: 14px;\n    height: 30px;\n    line-height: 24px;\n    padding-left: 8px;\n    padding-right: 8px;\n    position: relative;\n    vertical-align: top;\n}\n\n.input-chat__button___1OXxa {\n  font-size: 18px;\n  height: 30px;\n  padding-left: 14px;\n  padding-right: 14px;\n}\n", ""]);
 	
 	// exports
 	exports.locals = {
