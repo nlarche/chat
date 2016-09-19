@@ -6,6 +6,9 @@ class controller {
       this.styles = Styles;
     }
     onSubmit() {
+        if (!this.text) {
+          return;
+        }
         this.onUpdate({
                     $event : {
                     user: this.user,
