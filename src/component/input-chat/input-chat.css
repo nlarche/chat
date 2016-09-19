@@ -8,7 +8,7 @@
     color: #222324;
     display: inline-flex;
     font-size: 14px;
-    height: 20px;
+    height: 30px;
     line-height: 24px;
     padding-left: 8px;
     padding-right: 8px;
@@ -18,7 +18,7 @@
 
 .button {
   font-size: 18px;
-  height: 40px;
+  height: 30px;
   padding-left: 14px;
   padding-right: 14px;
 }
